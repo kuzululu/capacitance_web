@@ -1,0 +1,1 @@
+<input type="button" class="form-control btn btn-primary" value="View Contact Details" id="btn_contact_details" onclick="openNav();">

@@ -1,0 +1,1337 @@
+/*for crossfade design*/
+ul.imgfading li {
+  margin-top: 160px;
+  position: absolute;
+  list-style: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+ul img {
+  border: none;
+}
+
+#home_content img{
+	height: 450px;
+	width: 100%;
+}
+
+
+/*-----------------------*/
+html{
+	scroll-behavior: smooth;
+}
+
+/*remove horizontal scroll*/
+	html, body{
+		max-width: 100%;
+		overflow-x: hidden; 
+	}
+	/*---------------------------*/
+
+*{
+	box-sizing: border-box;
+}
+
+nav{
+	margin-top: 114px;
+}
+
+#mySidenav{
+	display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 2500;
+  top: 0;
+  left: 0;
+  background-color: #27C3D1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+
+}
+
+.sidenav a:hover{
+  color: #2654B1;
+}
+
+.linkTouch{
+	color: #2654B1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#btn_contact_details{
+	display: none;
+}
+
+
+#home_title_header{
+	padding: 0 0 0 0;
+	background: #27C3D1;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+#home_title_header h3{
+	text-align: center;
+	color: white;
+	font-family: algerian;
+}
+
+#home_grp_det{
+	margin-top: 49px;
+	padding: 15px 15px 0 15px;
+	background: #27C3D1;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+
+#home_grp_det .col-md-3{
+	font-size: 14px;
+	font-family: verdana;
+	color: white;
+}
+
+#home_grp_det .col-md-3 p{
+	text-align: center;
+}
+
+#home_banner{
+	width: 600px;
+	padding: 20px;
+	border-radius: 10px;
+	background: url("../img/body/bod.png");
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-top: 200px;
+	margin-left: 20px;
+}
+
+#home_body{
+	margin-top: 650px;
+}
+
+#title{
+	text-align: center;
+}
+
+#home_body .col-md-4 li{
+	font-size: 18px;
+}
+
+/*contact page*/
+#contact_us{
+	margin-top: 180px;
+}
+
+#map{
+	background-color: #FEFCFC;
+	border-radius: 5px;
+	height: 400px;
+	width:100%;
+	background-color: #abc;
+}
+
+.highlights{
+	background: #F9C98E;
+	font-weight: bolder;
+}
+/*-----------------------------*/
+
+/*footer*/
+#footer h4{
+	font-size: 20px;
+}
+/*----------------*/
+
+/*gallery page*/
+#content{
+	margin-top: 200px;
+}
+
+
+.modal{
+	overflow-y: auto; 
+}
+
+.modal-body img{
+	width: 100%;
+}
+
+#sidebar{
+	font-size: 25px;
+	background: #696969;
+	border-radius: 5px;
+	padding: 0;
+	border: 1px  solid white;
+}
+
+#sidebar a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: center;
+	font-family: algerian;
+	border: 1px solid white;
+}
+
+#sidebar h2{
+	color: white;
+	text-align: center;
+	font-family: algerian;
+}
+
+#title{
+	margin-top: -20px;
+}
+
+#btn_menu{
+	display: none;
+}
+
+#sidebar #btn{
+	display: none;
+}
+/*-----------------------------*/
+
+/*mission page*/
+#mission{
+	margin-top: 190px;
+}
+
+#mission h1{
+	font-size: 50px;
+}
+
+#mission p{
+	font-size: 16px;
+	font-family: verdana;
+	text-align: justify;
+}
+/*-------------------*/
+
+/*vission page*/
+#vission{
+	margin-top: 190px;
+}
+
+#vission h1{
+	font-size: 50px;
+}
+
+#vission p{
+	font-size: 16px;
+	font-family: verdana;
+	text-align: justify;
+}
+/*--------------------------*/
+
+@media screen and (max-width: 320px) and (max-width: 400px){
+	.sidenav img{
+		height: 150px;
+		width: 150px;
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sidenav h1{
+		font-size: 20px;
+	}
+
+	.sidenav .linktouch{
+		font-size: 16px;
+	}
+	/*for homepage*/
+	#home_grp_det{
+		display: none;
+	}
+
+	#btn_contact_details{
+		display: block;
+		margin-top: 98px;
+	}
+
+	#home_title_header h3{
+		font-size: 18px;
+		margin-top: 0;
+	}
+
+	nav{
+		margin-top: 46px;
+	}
+
+	#home_content{
+		margin-top: -170px;
+	}
+
+	#home_content img{
+		height: 200px;
+	}
+
+	#home_banner{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 360px;
+	}
+
+	#home_body{
+		margin-top: 960px;
+	}
+
+	#title{
+		font-size: 20px;
+	}
+
+	#home_body .col-md-4 h3{
+		font-size: 18px;
+	}
+
+	#home_body .col-md-4 ul{
+		font-size: 16px;
+	}
+	/*---------------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 80px;
+	}
+
+	#mission h1{
+		font-size: 40px;
+	}
+
+	#mission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+	/*----------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 80px;
+	}
+
+	#vission h1{
+		font-size: 40px;
+	}
+
+	#vission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+
+	/*gallery*/
+
+	#load_page{
+		margin-top: -200px;
+	}
+
+	#sidebar{
+		display: none;
+		margin-top: -230px;
+		z-index: 1;
+		position: fixed;
+		width: 180px;
+		font-size: 18px;
+	}
+
+	#sidebar #btn{
+		display: block;
+	}
+
+	#btn_menu{
+		display: block;
+		margin-top: 5px;
+		font-size: 25px;
+	}
+	/*------------------------*/
+
+	/*contact page*/
+	#cont_title{
+		margin-top: -60px;
+	}
+
+	#contact_us{
+		margin-top: 80px;
+	}
+	/*---------------------------*/
+/*--------------------------*/
+}
+
+@media only screen and (min-width: 568px) and (max-width: 680px){
+	#btn_contact_details{
+		display: block;
+		margin-top: 101px;
+		font-size: 20px;
+		padding: 5px 0 30px 0;
+	}
+
+	.sidenav img{
+		height: 150px;
+		width: 150px;
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sidenav h1{
+		font-size: 20px;
+	}
+
+	.sidenav .linktouch{
+		font-size: 16px;
+	}
+
+	/*for home page*/
+	#home_grp_det{
+		display: none;
+	}
+
+	nav{
+		margin-top: 50px;
+	}
+
+	#home_content{
+		margin-top: -170px;
+	}
+
+	#home_content img{
+		height: 250px;
+	}
+
+	#home_banner{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 410px;
+		font-size: 18px;
+	}
+
+	#home_body{
+		margin-top: 950px;
+	}
+	/*----------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 0;
+	}
+
+	#mission h1{
+		font-size: 40px;
+	}
+
+	#mission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+	/*----------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 0;
+	}
+
+	#vission h1{
+		font-size: 40px;
+	}
+
+	#vission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+/*--------------------------*/
+
+/*gallery*/
+	#load_page{
+		margin-top: -200px;
+	}
+
+	#sidebar{
+		display: none;
+		margin-top: -230px;
+		z-index: 1;
+		position: fixed;
+		width: 180px;
+		font-size: 18px;
+	}
+
+	#sidebar #btn{
+		display: block;
+	}
+
+	#btn_menu{
+		display: block;
+		margin-top: 5px;
+		font-size: 25px;
+	}
+/*------------------------*/
+
+/*contact page*/
+	#contact_us{
+		margin-top: 0;
+	}
+
+	#cont_title .col-md-6 p{
+		font-size: 800px;
+	}
+/*-----------------------*/
+
+}
+
+@media only screen and (min-width: 414px) and (max-width: 500px	){
+	#btn_contact_details{
+		display: block;
+		margin-top: 101px;
+		font-size: 20px;
+		padding: 5px 0 30px 0;
+	}
+
+	.sidenav img{
+		height: 150px;
+		width: 150px;
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sidenav h1{
+		font-size: 20px;
+	}
+
+	.sidenav .linktouch{
+		font-size: 16px;
+	}
+
+	/*for home page*/
+	#home_grp_det{
+		display: none;
+	}
+
+	nav{
+		margin-top: 50px;
+	}
+
+	#home_content{
+		margin-top: -170px;
+	}
+
+	#home_content img{
+		height: 250px;
+	}
+
+	#home_banner{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 410px;
+		font-size: 18px;
+	}
+
+	#home_body{
+		margin-top: 950px;
+	}
+	/*----------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 0;
+	}
+
+	#mission h1{
+		font-size: 40px;
+	}
+
+	#mission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+	/*----------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 0;
+	}
+
+	#vission h1{
+		font-size: 40px;
+	}
+
+	#vission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+/*--------------------------*/
+
+/*gallery*/
+	#load_page{
+		margin-top: -200px;
+	}
+
+	#sidebar{
+		display: none;
+		margin-top: -230px;
+		z-index: 1;
+		position: fixed;
+		width: 180px;
+		font-size: 18px;
+	}
+
+	#sidebar #btn{
+		display: block;
+	}
+
+	#btn_menu{
+		display: block;
+		margin-top: 5px;
+		font-size: 25px;
+	}
+/*------------------------*/
+
+/*contact page*/
+	#contact_us{
+		margin-top: 0;
+	}
+
+	#cont_title .col-md-6 p{
+		font-size: 800px;
+	}
+/*-----------------------*/	
+}
+
+@media only screen and (min-width: 412px) and (max-width: 568px){
+#btn_contact_details{
+		display: block;
+		margin-top: 101px;
+		font-size: 20px;
+		padding: 5px 0 30px 0;
+	}
+
+	.sidenav img{
+		height: 150px;
+		width: 150px;
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sidenav h1{
+		font-size: 20px;
+	}
+
+	.sidenav .linktouch{
+		font-size: 16px;
+	}
+
+	/*for home page*/
+	#home_grp_det{
+		display: none;
+	}
+
+	nav{
+		margin-top: 50px;
+	}
+
+	#home_content{
+		margin-top: -170px;
+	}
+
+	#home_content img{
+		height: 250px;
+	}
+
+	#home_banner{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 410px;
+		font-size: 18px;
+	}
+
+	#home_body{
+		margin-top: 950px;
+	}
+	/*----------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 0;
+	}
+
+	#mission h1{
+		font-size: 40px;
+	}
+
+	#mission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+	/*----------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 0;
+	}
+
+	#vission h1{
+		font-size: 40px;
+	}
+
+	#vission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+/*--------------------------*/
+
+/*gallery*/
+	#load_page{
+		margin-top: -200px;
+	}
+
+	#sidebar{
+		display: none;
+		margin-top: -230px;
+		z-index: 1;
+		position: fixed;
+		width: 180px;
+		font-size: 18px;
+	}
+
+	#sidebar #btn{
+		display: block;
+	}
+
+	#btn_menu{
+		display: block;
+		margin-top: 5px;
+		font-size: 25px;
+	}
+/*------------------------*/
+
+/*contact page*/
+	#contact_us{
+		margin-top: 0;
+	}
+
+	#cont_title .col-md-6 p{
+		font-size: 800px;
+	}
+/*-----------------------*/		
+}
+
+@media only screen and (min-width: 768px) and (max-width: 816px){
+	#btn_contact_details{
+		display: block;
+		margin-top: 101px;
+		font-size: 27px;
+		padding: 5px 0 40px 0;
+	}
+
+	.sidenav img{
+		height: 250px;
+		width: 250px;
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sidenav h1{
+		font-size: 30px;
+	}
+
+	.sidenav .linktouch{
+		font-size: 25px;
+	}
+
+	/*for home page*/
+	#home_grp_det{
+		display: none;
+	}
+
+	nav{
+		margin-top: 50px;
+	}
+
+	#home_content{
+		margin-top: -170px;
+	}
+
+	#home_content img{
+		height: 350px;
+	}
+
+	#home_banner{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 510px;
+		font-size: 18px;
+	}
+
+	#home_body{
+		margin-top: 1000px;
+	}
+	/*----------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 0;
+	}
+
+	#mission h1{
+		font-size: 40px;
+	}
+
+	#mission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+	/*----------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 0;
+	}
+
+	#vission h1{
+		font-size: 40px;
+	}
+
+	#vission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+/*--------------------------*/
+
+/*gallery*/
+	#load_page{
+		margin-top: -200px;
+	}
+
+	#sidebar{
+		display: none;
+		margin-top: -230px;
+		z-index: 1;
+		position: fixed;
+		width: 250px;
+		font-size: 25px;
+	}
+
+	#sidebar #btn{
+		display: block;
+	}
+
+	#btn_menu{
+		display: block;
+		margin-top: 5px;
+		font-size: 35px;
+	}
+/*------------------------*/
+
+/*contact page*/
+	#contact_us{
+		margin-top: 0;
+	}
+
+	#cont_title .col-md-6 p{
+		font-size: 800px;
+	}
+/*-----------------------*/
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1034px){
+	/*for home page*/
+	
+	nav{
+		margin-top: 133px;
+	}
+
+	#home_content{
+		margin-top: 23px;
+	}
+
+	#home_content img{
+		height: 350px;
+	}
+
+	
+	/*----------------*/
+
+	
+}
+
+@media only screen and (min-width: 834px) and (max-width: 1024px){
+#btn_contact_details{
+		display: block;
+		margin-top: 101px;
+		font-size: 27px;
+		padding: 5px 0 40px 0;
+	}
+
+	.sidenav img{
+		height: 250px;
+		width: 250px;
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sidenav h1{
+		font-size: 30px;
+	}
+
+	.sidenav .linktouch{
+		font-size: 25px;
+	}
+
+	/*for home page*/
+	#home_grp_det{
+		display: none;
+	}
+
+	nav{
+		margin-top: 50px;
+	}
+
+	#home_content{
+		margin-top: -170px;
+	}
+
+	#home_content img{
+		height: 350px;
+	}
+
+	#home_banner{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 510px;
+		font-size: 18px;
+	}
+
+	#home_body{
+		margin-top: 1000px;
+	}
+	/*----------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 0;
+	}
+
+	#mission h1{
+		font-size: 40px;
+	}
+
+	#mission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+	/*----------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 0;
+	}
+
+	#vission h1{
+		font-size: 40px;
+	}
+
+	#vission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+/*--------------------------*/
+
+/*gallery*/
+	#load_page{
+		margin-top: -200px;
+	}
+
+	#sidebar{
+		display: none;
+		margin-top: -230px;
+		z-index: 1;
+		position: fixed;
+		width: 250px;
+		font-size: 25px;
+	}
+
+	#sidebar #btn{
+		display: block;
+	}
+
+	#btn_menu{
+		display: block;
+		margin-top: 5px;
+		font-size: 35px;
+	}
+/*------------------------*/
+
+/*contact page*/
+	#contact_us{
+		margin-top: 0;
+	}
+
+	#cont_title .col-md-6 p{
+		font-size: 800px;
+	}
+/*-----------------------*/	
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px){
+	#btn_contact_details{
+		display: block;
+		margin-top: 101px;
+		font-size: 27px;
+		padding: 5px 0 40px 0;
+	}
+
+	.sidenav img{
+		height: 250px;
+		width: 250px;
+		margin-top: 0;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.sidenav h1{
+		font-size: 30px;
+	}
+
+	.sidenav .linktouch{
+		font-size: 25px;
+	}
+
+	/*for home page*/
+	#home_grp_det{
+		display: none;
+	}
+
+	nav{
+		margin-top: 50px;
+	}
+
+	#home_content{
+		margin-top: -170px;
+	}
+
+	#home_content img{
+		height: 350px;
+	}
+
+	#home_banner{
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 510px;
+		font-size: 18px;
+	}
+
+	#home_body{
+		margin-top: 1040px;
+	}
+	/*----------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 0;
+	}
+
+	#mission h1{
+		font-size: 40px;
+	}
+
+	#mission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+	/*----------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 0;
+	}
+
+	#vission h1{
+		font-size: 40px;
+	}
+
+	#vission p{
+		font-size: 16px;
+		font-family: verdana;
+		text-align: justify;
+	}
+/*--------------------------*/
+
+/*gallery*/
+	#load_page{
+		margin-top: -200px;
+	}
+
+	#sidebar{
+		display: none;
+		margin-top: -230px;
+		z-index: 1;
+		position: fixed;
+		width: 250px;
+		font-size: 25px;
+	}
+
+	#sidebar #btn{
+		display: block;
+	}
+
+	#btn_menu{
+		display: block;
+		margin-top: 5px;
+		font-size: 35px;
+	}
+/*------------------------*/
+
+/*contact page*/
+	#contact_us{
+		margin-top: 0;
+	}
+
+	#cont_title .col-md-6 p{
+		font-size: 800px;
+	}
+/*-----------------------*/
+}
+
+@media only screen and (min-width: 2560px) and (max-width: 3960px){
+	/*stop at this media query*/
+	/*home page*/
+
+	#home_title_header h3{
+		font-size: 80px;
+	}
+
+	#home_title_header{
+		padding: 0 0 30px 0;
+	}
+
+	#home_grp_det{
+		margin-top: 100px;
+	}
+
+	#home_grp_det .col-md-3 p{
+		font-size: 40px;
+	}
+
+	nav{
+		margin-top: 300px;
+		padding: 20px;
+	}
+
+	.navbar-header a{
+		font-size: 50px;
+	}
+
+	#mainNav{
+		font-size: 50px;
+	}
+
+	#home_content{
+		margin-top: 240px;
+	}
+
+	#home_content img{
+		height: 700px;
+	}
+
+	#home_banner{
+		margin-top: 220px;
+		height: 600px;
+		width: 1500px;
+	}
+
+	#home_banner span{
+		font-size: 30px;
+	}
+
+	#home_banner h4{
+		font-size: 40px;
+	}
+
+	#home_banner input{
+		font-size: 30px;
+	}
+
+	#home_body{
+		margin-top: 950px;
+	}
+
+	#title{
+		font-size: 100px;
+	}
+
+	#home_body .col-md-4 h3{
+		font-size: 60px;
+	}
+
+	#home_body .col-md-4 h4{
+		font-size: 40px;
+	}
+
+	#home_body .col-md-4 ul li{
+		font-size: 40px;
+	}
+
+	/*----------------------------*/
+	/*footer*/
+	#footer .col-md-12 h4{
+		font-size: 40px;
+	}
+	/*-------------------------*/
+
+	/*mission page*/
+	#mission{
+		margin-top: 400px;
+	}
+
+	#mission h1{
+		font-size: 150px;
+	}
+
+	#mission .col-md-12 p{
+		font-size: 40px;
+	}
+	/*----------------------------------*/
+
+	/*vission page*/
+	#vission{
+		margin-top: 400px;
+	}
+
+	#vission h1{
+		font-size: 150px;
+	}
+
+	#vission .col-md-12 p{
+		font-size: 40px;
+	}
+	/*------------------------------------*/
+
+	/*gallery page*/
+	#content{
+		margin-top: 450px;
+	}
+
+	#sidebar{
+		border-radius: 15px;
+	}
+
+	#sidebar a{
+		font-size: 50px;
+	}
+
+	.modal-header h3{
+		font-size: 80px;
+		text-align: center;
+	}
+
+	.modal-header .close{
+		font-size: 90px;
+	}
+
+	.modal-footer button{
+		font-size: 60px;
+	}
+
+	.modal-dialog{
+		width: 80%;
+	}
+
+	#memo{
+		font-size: 40px;
+	}	
+	/*------------------------------*/
+
+	/*contact page*/
+	#contact_us{
+		margin-top: 400px;
+	}	
+
+	#contact_us #cont_title{
+		font-size: 100px;
+	}
+
+	#contact_us .col-md-6{
+		margin-top: 80px;
+	}
+
+	#contact_us .col-md-6 p{
+		font-size: 50px;
+	}
+
+	#map{
+		width: 100%;
+		height: 1080px;
+	}
+
+	#contact_us .col-md-6 form{
+		font-size: 40px;
+	}
+
+	#contact_us .col-md-6 form input{
+		font-size: 40px;
+		padding: 50px 20px 40px 0;
+	}
+
+	#contact_us .col-md-6 form input[type='submit']{
+		font-size: 60px;
+		padding: 10px 0 90px 0;
+		border-radius: 20px;	
+	}
+	/*-----------------------------------*/
+
+}
+
